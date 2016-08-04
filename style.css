@@ -1,0 +1,40 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-family: Calibri;
+}
+#main{
+	width:900px;
+	margin: 0px auto;
+}
+.frame{
+	width:100%;
+	height:400px;
+	overflow: hidden;
+
+}
+.frame img{
+	width:100%;
+}
+.desc{
+	width:calc(100% - 20px);
+	padding:10px;
+	background: gray;
+	color:black;
+}
+.desc p{
+	margin:0;
+}
+.btnGroup button{
+	padding:10px 20px;
+	border:none;
+	background: brown;
+	text-transform: uppercase;
+	color:white;
+}
+.btnGroup button:first-child{
+	float:left;
+}
+.btnGroup button:last-child{
+	float:right;
+}
